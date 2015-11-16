@@ -9,12 +9,12 @@
 	N jugadores (C: i[0 - n>) participan en M rondas,
 	en cada ronda el banco saca un presupuesto B,
 	los jugadores tienen disponibles 5 cartas (1, 10, 100, 1000, 10000),
-	en cada turno deberian elegir solo 1 de ellas (nadie sabe la eleccion del otro),
-	si la suma de estas es menor o igual que B, cada jugador ganara la cantidad descrita por la carta.
-	Las cartas retornar a cada jugador antes del siguiente turno.
+	en cada turno eligen solo 1 de ellas (nadie sabe la eleccion del otro),
+	si la suma de estas es menor o igual que B, cada jugador ganara la cantidad descrita en la carta.
+	Las cartas retornan a cada jugador antes del siguiente turno.
 * Objetivo:
 	Dada la informacion del juego, maximizar la cantidad que pudo haber ganado Dedalo (el primer jugador),
-	de haber la mejor carta en cada turno.
+	de haber elegido la mejor carta en cada turno.
 * Enfoque:
 	Greedy
 */
